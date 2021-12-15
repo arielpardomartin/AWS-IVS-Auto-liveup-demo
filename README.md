@@ -1,0 +1,1 @@
+# AWS-IVS-Auto-liveup-demo
