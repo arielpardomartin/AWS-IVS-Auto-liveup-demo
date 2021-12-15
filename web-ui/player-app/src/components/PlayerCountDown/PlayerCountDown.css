@@ -1,0 +1,51 @@
+ 
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+  
+  .container h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Exo, Arial, Sans-serif;
+    padding: 50px 0 20px;
+    font-weight: normal;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);;
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .box > div {
+    height: 130px;
+    background: rgb(47, 53, 63, 0.6);
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: Exo, arial, sans-serif;
+    font-size: 55px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+  }
+  
+  .box span {
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Exo", arial, sans-serif;
+    color: #fff;
+  }
